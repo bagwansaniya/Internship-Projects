@@ -1,0 +1,176 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:rgb(245,245,245); 
+}
+.header{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: centers;
+}
+.search{
+    height: 40px;
+   width: 670px;
+   margin-left: 30px;
+   padding-bottom: 10px;
+   
+}
+input{
+    padding-left: 50px;
+    height: 40px;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    margin: 15px;
+}
+.i3{
+    background-image: url(images&icons/icons8-bag-50.png);
+    background-size: cover;
+}
+.i2{
+    background-image: url(images&icons/icons8-heart-64.png);
+    background-size: cover;
+}
+.i1{
+    background-image: url(images&icons/icons8-user-64.png);
+    background-size: cover;
+}
+.content{
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.images{
+    padding: 15px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.img1{
+    height: 560px;
+    width: 430px;
+    background-image: url(images&icons/product1.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+.img1:hover{
+    transform: scale(0.8);
+}
+.img2{
+    height: 560px;
+    width: 430px;
+    background-image: url(images&icons/product2.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+.img2:hover{
+    transform: scale(0.8);
+}
+.img3{
+    height: 560px;
+    width: 430px;
+    background-image: url(images&icons/product4.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+.img3:hover{
+    transform: scale(0.8);
+}
+.img4{
+    height: 560px;
+    width: 430px;
+    background-image: url(images&icons/product3.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+.img4:hover{
+    transform: scale(0.8);
+}
+.checked {
+    color: orange;
+}
+p{
+    font-size: 24px;
+}
+.info{
+    height: 900px;
+    width: 40%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    height: 40px;
+    width: 250px;
+    border-color: palevioletred;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+    background-color: palevioletred; /* Pink on hover */
+    color: #fff; /* White text on hover */
+  }
+.icon1{
+    height: 25px;
+    width: 25px;
+    background-image: url("images&icons/icons8-insta-50.png");
+    background-size: cover;
+}
+.icon2{
+    height: 25px;
+    width: 25px;
+    background-image: url("images&icons/icons8-twitter-26.png");
+    background-size: cover;
+}
+.icon3{
+    height: 25px;
+    width: 25px;
+    background-image: url("images&icons/icons8-facebook-24.png");
+    background-size: cover;
+}
+.foot-panel1{
+    display: flex;
+    justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  height: 250px;
+  
+}
+ul a{
+  display: block;
+  margin-top: 10px;
+  color: #dddddd;
+  font-size: 1rem;
+  
+}
+ul p{
+  margin-top: 30px;
+}
+
